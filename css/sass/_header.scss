@@ -1,0 +1,31 @@
+//!important utilizado para sobrepor informações do Bootstrap
+
+header {
+	
+	background: none !important;
+	margin-bottom: 0px !important;
+
+	.navbar-brand {
+		background: url(../img/logo-img.png) no-repeat;
+		height: 153px;
+		
+		p {
+			@include define-fonte('open_sanssemibold', 38px, $main_color);
+			margin: 55px 0px 0px 115px;
+		}
+	}
+
+	.menu {
+		margin-top: 55px;
+		a {
+			@include define-fonte('open_sanssemibold', 20px, #000);
+			color: #000 !important;
+			@include transition(0.2s, ease, all);
+			padding-bottom: 8px;
+			&:hover {
+				color: darken($main_color, 10%) !important;
+				background-color: #FFF !important; 
+			}
+		}
+	}
+}

@@ -1,0 +1,5 @@
+$main_color: #e1a013;
+
+h4 {
+	@include define-fonte('open_sansregular', 30px, $main_color);
+}

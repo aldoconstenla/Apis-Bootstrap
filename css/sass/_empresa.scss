@@ -1,0 +1,30 @@
+.empresa {
+
+	.container {
+		margin: 125px auto;
+		width: 960px;
+	}
+
+	.empresa_img {
+		background: url(../img/empresa_img.png) no-repeat; //ícone a ser alterado para vetor
+		float: left;
+		width: 217px;
+		height: 251px;
+		margin-top: 55px;
+	}
+
+	%text-margin {
+		margin-left: 60px;
+	}
+
+	p {
+		@extend %text-margin;
+		@include define-fonte('open_sansregular', 20px, #000);
+		line-height: 3;
+	}
+
+	h4 {
+		@extend %text-margin;
+		margin-bottom: 25px;
+	}
+}

@@ -1,0 +1,11 @@
+@mixin define-fonte($fonte, $tamanho, $cor:#FFF) {
+	font-family: $fonte, 'sans-serif';
+	font-size: $tamanho;
+	color: $cor;
+}
+
+@mixin transition($time, $type, $property) {
+	transition: $time $type $property;
+	-webkit-transition: $time $type $property;
+	-moz-transition: $time $type $property;
+}

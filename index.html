@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        <!-- Latest compiled and minified CSS -->
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- Add your site or application content here -->
+        
+        
+
+        <header class="navbar navbar-default">
+            <div class="container">
+                <nav role="navigation">
+                  <div class="container-fluid">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                      </button>
+                      <a class="navbar-brand" href="#">
+                        <p class="text-uppercase">Apis Progresso</p>
+                      </a>
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                      <ul class="menu nav navbar-nav navbar-right">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Empresa</a></li>
+                        <li><a href="#">Produtos</a></li>
+                        <li><a href="#">Serviços</a></li>
+                        <li><a href="#">Contato</a></li>
+                      </ul>
+                    </div><!-- /.navbar-collapse -->
+                  </div><!-- /.container-fluid -->
+                </nav>
+            </div><!-- container -->
+        </header><!-- menu -->
+
+        <div class="jumbotron banner">
+            <div class="container">
+                <h1 class="text-center text-uppercase">Lorem ipsum dolor sit amet</h1>
+                <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p class="text-center">Nam sodales diam quis auctor consequat.</p>
+            </div><!-- container -->
+            <a class="arrow-down" role="button"></a>
+        </div><!-- banner -->
+
+        <div class="media empresa">
+            <div class="container clearfix">
+                <div class="empresa_img"></div>
+                <div class="media-body">
+                    <h4 class="text-uppercase">Sobre Nossa Empresa</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam laoreet congue velit, nec hendrerit lectus luctus id. Nam finibus lorem fermentum consequat tristique. Pellentesque habitant morbi tristique senectus et netus.
+                    </p>
+                </div>
+            </div><!-- container -->
+        </div><!-- empresa -->
+        
+        <div class="produtos">
+            <div class="container">
+                <h4 class="text-uppercase">Produtos</h4>
+                <div class="row">
+                    <div class="col-md-3 col-sm-4">
+                        <img src="img/mel_bg.png" alt="">
+                        <p class="text-center">Compostos de Mel</p>
+                    </div>
+                    <div class="col-md-3 col-sm-4">
+                        <img src="img/propolis_bg.png" alt="">
+                        <p class="text-center">Própolis</p>
+                    </div>
+                    <div class="col-md-3 col-sm-4">
+                        <img src="img/granola_bg.png" alt="">
+                        <p class="text-center">Granola</p>
+                    </div>
+                    <div class="col-md-3 col-sm-4">
+                        <img src="img/xarope_bg.png" alt="">
+                        <p class="text-center">Xaropes</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3">
+                        <img src="img/geleia_bg.png" alt="">
+                        <p class="text-center">Geleia Real</p>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="img/outros_bg.png" alt="">
+                        <p class="text-center">Outros</p>
+                    </div>
+                </div>
+            </div>
+        </div><!-- produtos -->
+
+        <div class="parceiros">
+            <div class="container">
+                <h4 class="text-uppercase">Parceiros</h4>
+                <div class="row">
+                    <div class="col-md-3"><img src="http://lorempixel.com/243/243" alt=""> </div>
+                    <div class="col-md-3"><img src="http://lorempixel.com/243/243" alt=""> </div>
+                    <div class="col-md-3"><img src="http://lorempixel.com/243/243" alt=""> </div>
+                    <div class="col-md-3"><img src="http://lorempixel.com/243/243" alt=""> </div>
+                </div>
+            </div>
+        </div><!-- parceiros -->
+
+        <div class="contato">
+            <div class="container">
+                <h4>Mande-nos um e-mail</h4>
+                <div class="row">
+                    <div class="col-md-6">
+                        <form class="input-group" action="mailer.php" method="post" id='ajax-contact'>
+                          <input type="text" class="form-control" placeholder="Nome">
+                          <input type="email" class="form-control" placeholder="E-mail">
+                          <input type="text" class="form-control" placeholder="Mensagem">
+                          <button type="submit" class="btn btn-default">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-6 dados-contato">
+                        <h4>Contato</h4>
+                        <p class="tel">(11) 4067.4054</p>
+                        <p class="email">contato@apisprogresso.com.br</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- Latest compiled and minified JavaScript -->
+        
+        <script src="js/vendor/jquery-1.10.2.min.js"></script>
+        
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='http://www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X');ga('send','pageview');
+        </script>
+    </body>
+</html>
